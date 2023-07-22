@@ -23,31 +23,40 @@
     <input class="title" value="Funzone.use-as-text-editor ">
     <div class="code highcontrast-dark">
       <textarea id="code">
-@keyframes cast-bit-to-space-toggle {
-  to { --cbtst-space-toggle: ; }
-}
-
-@property --cbtst-space-toggle {
-  syntax: "*";
-  initial-value: initial;
-  inherits: false;
+@keyframes you-can-read-it-awsome {
+  to { --edit-make-yourown: text; }
 }
 
 @profile { 
   name: vasanthabalaji;
-  Education: "BSc.CS.CTIS";
+  about: me(explore & learn tech "try to understand there need and functionality how it works" :);
+  education: "BSc.CS.CTIS";
+  job role: "";
 }
 
-:where(.cbtst) {
-  --cbtst-animation: cast-bit-to-space-toggle
-    1ms linear both var(--cbtst-bit, 0);
-  animation: var(--cbtst-animation);
+:hardskill() {
+  --tech-understanding: most-focus-on-cloud-security
+    1cretificate Azure AZ900 var(--value-cloud, 1);
+    2cretificate IBM pthon101 var(--value-python, 1);
+  outcome: var(--knowledge-++);
 }
 
-/* usage */
-.my-el.cbtst {
-  --cbtst-bit: 1; /* provide input value of 0 or 1 */
-  /* var(--cbtst-space-toggle) is the output */
+:softskill() {
+  --behaviour-stable: most-focus-on-mental-stablity
+    1cretificate workspace ethiqueate var(--value, 1);
+    2cretificate mental behaviour var(--value, 2);
+  outcome: var(--communication-++);
+}
+
+/* hobbies */
+.art-digital.illustrate {
+  --Draw-post: 1; /* post input art in instagram or pintrest */
+  /* var(--keep-me-creative) is the output */
+}
+
+.fitness-cycling {
+  --wakeup-morning: 1; /* cycle input fitness in 10km or 20km */
+  /* var(--keep-me-active) is the output */
 }
       </textarea>
     </div>
